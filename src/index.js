@@ -25,7 +25,6 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "images/porject_image")))
 app.use(fileUpload());
 
-
 // ===========Roote Route===========
 app.get("/", root);
 
